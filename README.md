@@ -9,7 +9,8 @@ XMLSitemap::set([
         "https://sitename/page3",
     ],
     "priority" => "0.8",
-    "changefreq" => "monthly"
+    "changefreq" => "monthly",
+    "dir" => "custom/directory"
 ]);
 
 XMLSitemap::generate();
