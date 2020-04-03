@@ -4,9 +4,9 @@ Set options and generate sitemap.xml file
 ```
 XMLSitemap::set([
     "pages" => [
-        "fie" => "fie",
-        "fie1" => "fie1",
-        "fie2" => "fie2",
+        "https://sitename/page1",
+        "https://sitename/page2",
+        "https://sitename/page3",
     ],
     "priority" => "0.8",
     "changefreq" => "monthly"
