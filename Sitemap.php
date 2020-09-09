@@ -59,7 +59,7 @@ class XMLSitemap {
             if (self::$options["changefreq"])   $str .= "<changefreq>".self::$options["changefreq"]."</changefreq>";
             if (self::$options["priority"])     $str .= "<priority>".self::$options["priority"]."</priority>";
 
-            $xml->addChild("url", htmlspecialchars_decode($str));
+            $xml->addChild("url", htmlspecialchars($str));
         }
 
         // Clean sitemap tags
